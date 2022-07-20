@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes waves {
+  0% {
+    left: -28px;
+  }
+  100% {
+    left: -62px;
+  }
+}
+
+#logo:hover svg {
+  animation: waves 1s linear infinite;
+}
